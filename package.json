@@ -1,0 +1,12 @@
+{
+  "name": "saucedemo_playwright",
+  "version": "1.0.0",
+  "description": "E-Commerce Happy Path automate",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
