@@ -30,5 +30,5 @@ test('E-Commerce Happy Path Test', async ({ page }) => {
 
     // 6. Verify the "Thank You" message appears
     const successMsg = await checkoutPage.getSuccessMessage();
-    expect(successMsg).toBe('Thank you for your order!');
+    expect(successMsg).toBe('Thank you for your orders!');
 });
